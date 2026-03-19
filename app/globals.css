@@ -1,0 +1,45 @@
+/* Import fonts - must come first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@600&family=Newsreader:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAFAFA;
+  --foreground: #1A1A1A;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font families */
+.font-newsreader {
+  font-family: 'Newsreader', serif;
+}
+
+.font-jetbrains {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Color palette */
+.text-brand { color: #1A1A1A; }
+.text-muted { color: #666666; }
+.text-muted-light { color: #888888; }
+.text-accent { color: #0D6E6E; }
+.bg-brand { background-color: #1A1A1A; }
+.bg-accent { background-color: #0D6E6E; }
+.bg-light { background-color: #FAFAFA; }
+.bg-offset { background-color: #F8F8F8; }
+.border-light { border-color: #E5E5E5; }
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
