@@ -45,7 +45,7 @@ export default function Home() {
                 src="/design/pencil/images/generated-1773951111211.png"
                 alt="VELVET & VOGUE Fashion Collection"
                 fill
-                sizes="(max-width: 768px) 100vw, 520px"
+                sizes="1400px"
                 className="object-cover"
                 priority
               />
@@ -109,7 +109,7 @@ export default function Home() {
                     src={`/design/pencil/images/${collection.img}`}
                     alt={collection.title}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="1000px"
                     className="object-cover transition-transform group-hover:scale-105"
                   />
                 </div>
