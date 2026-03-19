@@ -13437,6 +13437,1542 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "JSm9C",
+      "x": 16660,
+      "y": 0,
+      "name": "Product Page",
+      "width": 1440,
+      "fill": "#FAFAFA",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "7Yhv8",
+          "name": "header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E5E5E5"
+          },
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wq0Kj",
+              "name": "logoSection",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bmyBR",
+                  "name": "logoMark",
+                  "fill": "#1A1A1A",
+                  "content": "V&V",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "zVbuA",
+                  "name": "logoText",
+                  "fill": "#1A1A1A",
+                  "content": "VELVET & VOGUE",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IkBIb",
+              "name": "nav",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EZnW7",
+                  "name": "navItem1",
+                  "fill": "#666666",
+                  "content": "New Arrivals",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "6Za56",
+                  "name": "navItem2",
+                  "fill": "#666666",
+                  "content": "Collections",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "7P3Pm",
+                  "name": "navItem3",
+                  "fill": "#666666",
+                  "content": "Sustainable",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "FeJBX",
+                  "name": "navItem4",
+                  "fill": "#666666",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2d5KQ",
+              "name": "headerActions",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "kT1oZ",
+                  "name": "searchIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#666666"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "n3pPq",
+                  "name": "cartIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "shopping-bag",
+                  "iconFontFamily": "lucide",
+                  "fill": "#666666"
+                },
+                {
+                  "type": "frame",
+                  "id": "aXbId",
+                  "name": "loginBtn",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 4,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y4shg",
+                      "name": "loginText",
+                      "fill": "#FFFFFF",
+                      "content": "Sign In",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TU2da",
+          "name": "productSection",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            80,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "9Dmdx",
+              "name": "imageGallery",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UXAq6",
+                  "name": "mainImage",
+                  "width": "fill_container",
+                  "height": 600,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1773959500438.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "xXsH3",
+                  "name": "thumbnails",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z7fkv",
+                      "name": "thumb1",
+                      "width": 120,
+                      "height": 120,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773959513761.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "grzjd",
+                      "name": "thumb2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "katishna",
+                        "link": "https://unsplash.com/@katishna",
+                        "author": "Katya Azimova"
+                      },
+                      "width": 120,
+                      "height": 120,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1760013531865-89ff324f83a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5NTk1MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RSZAF",
+              "name": "details",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "37obq",
+                  "name": "title",
+                  "fill": "#1A1A1A",
+                  "content": "Essential Cotton T-Shirt",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 36,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "dhU0Z",
+                  "name": "price",
+                  "fill": "#1A1A1A",
+                  "content": "$45.00",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KrxvG",
+                  "name": "desc",
+                  "fill": "#666666",
+                  "content": "A perfectly weighted, incredibly soft organic cotton tee crafted for your everyday uniform.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "lsBt1",
+                  "name": "sizes",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Y3Xuh",
+                      "name": "btnS",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UyMwX",
+                          "fill": "#1A1A1A",
+                          "content": "S",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iFsox",
+                      "name": "btnM",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 4,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gH9jR",
+                          "fill": "#FFFFFF",
+                          "content": "M",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "soxCT",
+                      "name": "btnL",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sMAUm",
+                          "fill": "#1A1A1A",
+                          "content": "L",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2L6lt",
+                  "name": "btnCart",
+                  "width": "fill_container",
+                  "height": 56,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ckaMG",
+                      "fill": "#FFFFFF",
+                      "content": "Add to Cart",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ndasf",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            64,
+            40,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "RzpZu",
+              "name": "footerMain",
+              "width": "fill_container",
+              "gap": 64,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3hddY",
+                  "name": "footerBrand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wHCn9",
+                      "name": "footerLogo",
+                      "fill": "#FFFFFF",
+                      "content": "VELVET & VOGUE",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "r1j1L",
+                      "name": "footerTagline",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fashion that speaks your language. Free shipping on orders over $100 | 30-day hassle-free returns",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "39D6b",
+                  "name": "footerLinks1",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TwWnU",
+                      "name": "footerLinks1Title",
+                      "fill": "#FFFFFF",
+                      "content": "SHOP",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "wWdH5",
+                      "name": "footerLinks1Item1",
+                      "fill": "#888888",
+                      "content": "Women's Collection",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Olekr",
+                      "name": "footerLinks1Item2",
+                      "fill": "#888888",
+                      "content": "Men's Collection",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "btkO7",
+                      "name": "footerLinks1Item3",
+                      "fill": "#888888",
+                      "content": "Accessories",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VEIq1",
+                  "name": "footerLinks2",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9ZSeD",
+                      "name": "footerLinks2Title",
+                      "fill": "#FFFFFF",
+                      "content": "HELP",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "zDSXJ",
+                      "name": "footerLinks2Item1",
+                      "fill": "#888888",
+                      "content": "Shipping Info",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aGXEB",
+                      "name": "footerLinks2Item2",
+                      "fill": "#888888",
+                      "content": "Returns",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vhBj6",
+                      "name": "footerLinks2Item3",
+                      "fill": "#888888",
+                      "content": "FAQ",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ymOaM",
+                  "name": "footerLinks3",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cgiW1",
+                      "name": "footerLinks3Title",
+                      "fill": "#FFFFFF",
+                      "content": "ABOUT",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "iFRwC",
+                      "name": "footerLinks3Item1",
+                      "fill": "#888888",
+                      "content": "Our Story",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4P6ua",
+                      "name": "footerLinks3Item2",
+                      "fill": "#888888",
+                      "content": "Policies",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tBNFQ",
+                      "name": "footerLinks3Item3",
+                      "fill": "#888888",
+                      "content": "Contact",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rcltP",
+                  "name": "footerNewsletter",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tXonx",
+                      "name": "footerNewsletterTitle",
+                      "fill": "#FFFFFF",
+                      "content": "STAY CONNECTED",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "1CQsi",
+                      "name": "footerNewsletterDesc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Join our VIP list for exclusive access to new arrivals, special offers, and style inspiration.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qj09x",
+                      "name": "footerNewsletterForm",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "SLod0",
+                          "name": "footerEmailInput",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#00000000",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#4A4A4A"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nGhQC",
+                              "fill": "#888888",
+                              "content": "Your email address",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Mk0ki",
+                          "name": "footerSubscribeBtn",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "padding": [
+                            0,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4S4CC",
+                              "fill": "#1A1A1A",
+                              "content": "Join",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ks3cp",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                32,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i2JSr",
+                  "name": "footerCopyright",
+                  "fill": "#666666",
+                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "TgsJ0",
+                  "name": "footerSocials",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "l2iNp",
+                      "name": "footerSocial1",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#888888"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "TldBU",
+                      "name": "footerSocial2",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "facebook",
+                      "iconFontFamily": "lucide",
+                      "fill": "#888888"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "C1uZP",
+                      "name": "footerSocial3",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#888888"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1nhVF",
+      "x": 16660,
+      "y": 0,
+      "name": "Product Page",
+      "width": 1440,
+      "fill": "#FAFAFA",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "th8Y1",
+          "name": "header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E5E5E5"
+          },
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nBtrn",
+              "name": "logoSection",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7cXOb",
+                  "name": "logoMark",
+                  "fill": "#1A1A1A",
+                  "content": "V&V",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "RIauR",
+                  "name": "logoText",
+                  "fill": "#1A1A1A",
+                  "content": "VELVET & VOGUE",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hYGV2",
+              "name": "nav",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0MGkO",
+                  "name": "navItem1",
+                  "fill": "#666666",
+                  "content": "New Arrivals",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "xiPSO",
+                  "name": "navItem2",
+                  "fill": "#666666",
+                  "content": "Collections",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "UqWkf",
+                  "name": "navItem3",
+                  "fill": "#666666",
+                  "content": "Sustainable",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "S6Hse",
+                  "name": "navItem4",
+                  "fill": "#666666",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r8MLd",
+              "name": "headerActions",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "apqYn",
+                  "name": "searchIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#666666"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "cvXAB",
+                  "name": "cartIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "shopping-bag",
+                  "iconFontFamily": "lucide",
+                  "fill": "#666666"
+                },
+                {
+                  "type": "frame",
+                  "id": "X1pcF",
+                  "name": "loginBtn",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 4,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kb9vA",
+                      "name": "loginText",
+                      "fill": "#FFFFFF",
+                      "content": "Sign In",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KkYvq",
+          "name": "productSection",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            80,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Wf2DA",
+              "name": "imageGallery",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LObKk",
+                  "name": "mainImage",
+                  "width": "fill_container",
+                  "height": 600,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1773959530206.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "9L0ea",
+                  "name": "thumbnails",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jrDkh",
+                      "name": "thumb1",
+                      "width": 120,
+                      "height": 120,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773959545378.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "twGpW",
+                      "name": "thumb2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "yuliia_pak",
+                        "link": "https://unsplash.com/@yuliia_pak",
+                        "author": "Yuliia Pakhomova"
+                      },
+                      "width": 120,
+                      "height": 120,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1773747310809-1aeb86cc6062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5NTk1NDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f0Q23",
+              "name": "details",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rS3Df",
+                  "name": "title",
+                  "fill": "#1A1A1A",
+                  "content": "Essential Cotton T-Shirt",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 36,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "vHrIC",
+                  "name": "price",
+                  "fill": "#1A1A1A",
+                  "content": "$45.00",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Onxwp",
+                  "name": "desc",
+                  "fill": "#666666",
+                  "content": "A perfectly weighted, incredibly soft organic cotton tee crafted for your everyday uniform.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "TNjuW",
+                  "name": "sizes",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Le8uH",
+                      "name": "btnS",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9u8qY",
+                          "fill": "#1A1A1A",
+                          "content": "S",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Urbsz",
+                      "name": "btnM",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 4,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eb8e1",
+                          "fill": "#FFFFFF",
+                          "content": "M",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2Auza",
+                      "name": "btnL",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jv0Cx",
+                          "fill": "#1A1A1A",
+                          "content": "L",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P41C8",
+                  "name": "btnCart",
+                  "width": "fill_container",
+                  "height": 56,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BKCU4",
+                      "fill": "#FFFFFF",
+                      "content": "Add to Cart",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kRelA",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            64,
+            40,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "MNcRq",
+              "name": "footerMain",
+              "width": "fill_container",
+              "gap": 64,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "loRZF",
+                  "name": "footerBrand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6K7YU",
+                      "name": "footerLogo",
+                      "fill": "#FFFFFF",
+                      "content": "VELVET & VOGUE",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "UZuJx",
+                      "name": "footerTagline",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fashion that speaks your language. Free shipping on orders over $100 | 30-day hassle-free returns",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wLr9M",
+                  "name": "footerLinks1",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9Wmuv",
+                      "name": "footerLinks1Title",
+                      "fill": "#FFFFFF",
+                      "content": "SHOP",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hrb2q",
+                      "name": "footerLinks1Item1",
+                      "fill": "#888888",
+                      "content": "Women's Collection",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oA3zA",
+                      "name": "footerLinks1Item2",
+                      "fill": "#888888",
+                      "content": "Men's Collection",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ztrZr",
+                      "name": "footerLinks1Item3",
+                      "fill": "#888888",
+                      "content": "Accessories",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ASmcQ",
+                  "name": "footerLinks2",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yQ3UW",
+                      "name": "footerLinks2Title",
+                      "fill": "#FFFFFF",
+                      "content": "HELP",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "0y63H",
+                      "name": "footerLinks2Item1",
+                      "fill": "#888888",
+                      "content": "Shipping Info",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ESS6I",
+                      "name": "footerLinks2Item2",
+                      "fill": "#888888",
+                      "content": "Returns",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VtOfQ",
+                      "name": "footerLinks2Item3",
+                      "fill": "#888888",
+                      "content": "FAQ",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "96J7S",
+                  "name": "footerLinks3",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "62ltX",
+                      "name": "footerLinks3Title",
+                      "fill": "#FFFFFF",
+                      "content": "ABOUT",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "hhqv6",
+                      "name": "footerLinks3Item1",
+                      "fill": "#888888",
+                      "content": "Our Story",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UNxvG",
+                      "name": "footerLinks3Item2",
+                      "fill": "#888888",
+                      "content": "Policies",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YpSas",
+                      "name": "footerLinks3Item3",
+                      "fill": "#888888",
+                      "content": "Contact",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XjDOP",
+                  "name": "footerNewsletter",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hW1zm",
+                      "name": "footerNewsletterTitle",
+                      "fill": "#FFFFFF",
+                      "content": "STAY CONNECTED",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Toggp",
+                      "name": "footerNewsletterDesc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Join our VIP list for exclusive access to new arrivals, special offers, and style inspiration.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "D3vsE",
+                      "name": "footerNewsletterForm",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mJbzM",
+                          "name": "footerEmailInput",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#00000000",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#4A4A4A"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JbatK",
+                              "fill": "#888888",
+                              "content": "Your email address",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3FFdk",
+                          "name": "footerSubscribeBtn",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "padding": [
+                            0,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qzTVd",
+                              "fill": "#1A1A1A",
+                              "content": "Join",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Cu5Lp",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                32,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JjWng",
+                  "name": "footerCopyright",
+                  "fill": "#666666",
+                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "HnRqy",
+                  "name": "footerSocials",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "KkFdk",
+                      "name": "footerSocial1",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#888888"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "fU0pU",
+                      "name": "footerSocial2",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "facebook",
+                      "iconFontFamily": "lucide",
+                      "fill": "#888888"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "bwm1o",
+                      "name": "footerSocial3",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#888888"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

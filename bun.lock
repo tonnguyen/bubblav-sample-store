@@ -5,6 +5,7 @@
     "": {
       "name": "@bubblav/sample-store",
       "dependencies": {
+        "@bubblav/ai-chatbot-react": "^1.0.5",
         "lucide-react": "^0.577.0",
         "next": "16.2.0",
         "react": "19.2.4",
@@ -23,6 +24,8 @@
   },
   "packages": {
     "@alloc/quick-lru": ["@alloc/quick-lru@5.2.0", "", {}, "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="],
+
+    "@bubblav/ai-chatbot-react": ["@bubblav/ai-chatbot-react@1.0.5", "", { "peerDependencies": { "react": ">=19.0.0" } }, "sha512-Kk9Bf9mbMVemzeDOWXrc6m290GdMiLxLHo5R3caIWJvRDkn7HYgU2smR92gh23W2dwKnqZZ7ERp9i+UGyI5p3w=="],
 
     "@emnapi/runtime": ["@emnapi/runtime@1.9.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-VYi5+ZVLhpgK4hQ0TAjiQiZ6ol0oe4mBx7mVv7IflsiEp0OWoVsp/+f9Vc1hOhE0TtkORVrI1GvzyreqpgWtkA=="],
 
