@@ -1,4 +1,4 @@
-import { Package, Truck, CheckCircle, Clock, Home } from 'lucide-react';
+import { Package, Truck, Clock, Home } from 'lucide-react';
 
 export default function TrackingPage() {
   const orderStatuses = [
@@ -10,7 +10,7 @@ export default function TrackingPage() {
     {
       icon: Clock,
       title: 'Processing',
-      desc: 'We\'re preparing your order for shipment.',
+      desc: "We're preparing your order for shipment.",
     },
     {
       icon: Truck,
@@ -26,8 +26,8 @@ export default function TrackingPage() {
 
   const deliveryStages = [
     { step: 1, title: 'Order Processing', desc: '1-2 business days', details: 'We confirm payment, verify inventory, pick and pack your items, and generate your shipping label.' },
-    { step: 2, title: 'Carrier Pickup', desc: 'Same day or next business day', details: 'Your package is handed to the carrier (PostNord/DB Schenker). Tracking information becomes active.' },
-    { step: 3, title: 'In Transit', desc: 'Varies by destination', details: 'Your package travels through the carrier\'s network, passing through distribution centers.' },
+    { step: 2, title: 'Carrier Pickup', desc: 'Same day or next business day', details: "Your package is handed to the carrier (PostNord/DB Schenker). Tracking information becomes active." },
+    { step: 3, title: 'In Transit', desc: 'Varies by destination', details: "Your package travels through the carrier's network, passing through distribution centers." },
     { step: 4, title: 'Local Delivery', desc: 'Delivery day', details: 'Package arrives at your local distribution center and is scheduled for delivery.' },
     { step: 5, title: 'Delivery', desc: 'Complete', details: 'Package delivered to your door or available for collection at service point.' },
   ];
@@ -35,7 +35,7 @@ export default function TrackingPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-[100px] px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Badge */}
@@ -46,12 +46,12 @@ export default function TrackingPage() {
             </div>
 
             {/* Title */}
-            <h1 className="font-newsreader text-[48px] font-medium leading-[1.1] text-brand mb-5">
+            <h1 className="font-newsreader text-4xl sm:text-[48px] font-medium leading-[1.1] text-brand mb-5">
               Track Your Order
             </h1>
 
             {/* Subtitle */}
-            <p className="text-muted text-base max-w-[720px] leading-[1.6]">
+            <p className="text-muted text-base max-w-[640px] leading-[1.6]">
               Track your VELVET &amp; VOGUE order in real-time. Get updates on your package&apos;s journey from our warehouse to your doorstep.
             </p>
           </div>
@@ -59,17 +59,17 @@ export default function TrackingPage() {
       </section>
 
       {/* Track Form Section */}
-      <section className="bg-offset py-20 px-16">
+      <section className="bg-offset py-16 sm:py-20 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center gap-8">
-            <h2 className="font-newsreader text-[28px] font-medium leading-[1.2] text-brand">
+            <h2 className="font-newsreader text-2xl sm:text-[28px] font-medium leading-[1.2] text-brand">
               Quick Track
             </h2>
             <p className="text-muted text-base">
               Enter your order number and email address to get real-time updates
             </p>
 
-            <div className="bg-white border border-light rounded-lg p-10 w-[560px] space-y-5">
+            <div className="bg-white border border-light rounded-lg p-6 sm:p-10 w-full max-w-[560px] space-y-5">
               <div>
                 <label className="block text-brand text-sm font-semibold mb-2">Order Number</label>
                 <input
@@ -95,13 +95,13 @@ export default function TrackingPage() {
       </section>
 
       {/* Order Status Section */}
-      <section className="bg-white py-20 px-16">
+      <section className="bg-white py-16 sm:py-20 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
-          <h2 className="font-newsreader text-[32px] font-medium leading-[1.2] text-brand mb-8">
+          <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.2] text-brand mb-8">
             Understanding Your Order Status
           </h2>
 
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {orderStatuses.map((item, i) => (
               <div key={i} className="border border-light rounded-lg p-6 space-y-3">
                 <item.icon className="w-6 h-6 text-accent" strokeWidth={1.5} />
@@ -114,21 +114,21 @@ export default function TrackingPage() {
       </section>
 
       {/* Delivery Stages Section */}
-      <section className="bg-offset py-20 px-16">
+      <section className="bg-offset py-16 sm:py-20 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
-          <h2 className="font-newsreader text-[32px] font-medium leading-[1.2] text-brand mb-8">
+          <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.2] text-brand mb-8">
             Delivery Stages Explained
           </h2>
 
           <div className="space-y-6">
             {deliveryStages.map((stage) => (
-              <div key={stage.step} className="bg-white border border-light rounded-lg p-6 space-y-4">
-                <div className="flex items-start gap-6">
+              <div key={stage.step} className="bg-white border border-light rounded-lg p-5 sm:p-6 space-y-4">
+                <div className="flex items-start gap-4 sm:gap-6">
                   <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-white text-sm font-semibold">{stage.step}</span>
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center justify-between mb-2">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2 gap-1">
                       <h3 className="font-newsreader text-lg font-medium text-brand">{stage.title}</h3>
                       <span className="text-accent text-sm font-medium">{stage.desc}</span>
                     </div>
@@ -142,7 +142,7 @@ export default function TrackingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-white py-20 px-16">
+      <section className="bg-white py-16 sm:py-20 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center gap-5">
             <h2 className="font-newsreader text-2xl font-medium text-brand">
@@ -151,7 +151,7 @@ export default function TrackingPage() {
             <p className="text-muted text-base max-w-[560px]">
               If you have any questions about your order or delivery, our customer service team is here to help.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <button className="bg-brand text-white px-8 py-4 rounded text-sm font-medium">
                 Contact Us
               </button>

@@ -35,7 +35,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-[120px] px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-[120px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Badge */}
@@ -46,7 +46,7 @@ export default function AboutPage() {
             </div>
 
             {/* Title */}
-            <h1 className="font-newsreader text-[48px] font-medium leading-[1.1] text-brand mb-6">
+            <h1 className="font-newsreader text-4xl sm:text-[48px] font-medium leading-[1.1] text-brand mb-6">
               About VELVET &amp; VOGUE
             </h1>
 
@@ -59,7 +59,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story Section */}
-      <section className="bg-white py-[100px] px-16">
+      <section className="bg-white py-12 sm:py-16 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[800px] mx-auto">
             {/* Badge */}
@@ -85,16 +85,16 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="bg-white py-[100px] px-16">
+      <section className="bg-white py-12 sm:py-16 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           {/* Header */}
-          <div className="text-center mb-10">
+          <div className="text-center mb-8 sm:mb-10">
             <div className="inline-block mb-4">
               <span className="font-jetbrains text-xs font-semibold tracking-[0.12em] text-accent">
                 WHAT WE STAND FOR
               </span>
             </div>
-            <h2 className="font-newsreader text-[36px] font-medium leading-[1.1] text-brand">
+            <h2 className="font-newsreader text-3xl sm:text-[36px] font-medium leading-[1.1] text-brand">
               What We Stand For
             </h2>
           </div>
@@ -102,7 +102,7 @@ export default function AboutPage() {
           {/* Grid */}
           <div className="max-w-[900px] mx-auto space-y-6">
             {values.map((item, i) => (
-              <div key={i} className="bg-light border border-light rounded-lg p-8 flex gap-6">
+              <div key={i} className="bg-light border border-light rounded-lg p-6 sm:p-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
                 <div className="w-16 h-16 bg-offset rounded flex items-center justify-center flex-shrink-0">
                   <item.icon className="w-8 h-8 text-accent" strokeWidth={1.5} />
                 </div>
@@ -117,7 +117,7 @@ export default function AboutPage() {
       </section>
 
       {/* Commitment Section */}
-      <section className="bg-offset py-[100px] px-16">
+      <section className="bg-offset py-12 sm:py-16 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           {/* Header */}
           <div className="text-center mb-8">
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 OUR PROMISE
               </span>
             </div>
-            <h2 className="font-newsreader text-[36px] font-medium leading-[1.1] text-brand mb-4">
+            <h2 className="font-newsreader text-3xl sm:text-[36px] font-medium leading-[1.1] text-brand mb-4">
               Our Commitment to You
             </h2>
             <p className="text-muted text-base max-w-[560px] mx-auto leading-[1.6]">
@@ -135,7 +135,7 @@ export default function AboutPage() {
           </div>
 
           {/* Grid */}
-          <div className="flex justify-center gap-6 max-w-[700px] mx-auto">
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 max-w-[700px] mx-auto">
             {commitments.map((item, i) => (
               <div key={i} className="flex flex-col items-center gap-3 w-[140px]">
                 <div className="w-14 h-14 bg-accent rounded-full flex items-center justify-center">
@@ -149,20 +149,20 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-white py-20 px-16">
+      <section className="bg-white py-16 sm:py-20 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="text-center max-w-[800px] mx-auto">
-            <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand mb-4">
+            <h2 className="font-newsreader text-3xl sm:text-[32px] font-medium leading-[1.1] text-brand mb-4">
               Join Our Journey
             </h2>
             <p className="text-muted text-base max-w-[560px] mx-auto leading-[1.6] mb-6">
               We&apos;re just getting started. Explore our collections, follow us on social media, and be part of the VELVET &amp; VOGUE story.
             </p>
-            <div className="flex justify-center gap-4">
-              <Link href="/" className="bg-brand text-white px-8 py-4 rounded text-sm font-medium inline-flex items-center gap-2">
+            <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+              <Link href="/" className="bg-brand text-white px-8 py-4 rounded text-sm font-medium inline-flex items-center justify-center gap-2">
                 Shop Now <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link href="/contact" className="border border-brand text-brand px-8 py-4 rounded text-sm font-medium">
+              <Link href="/contact" className="border border-brand text-brand px-8 py-4 rounded text-sm font-medium inline-flex items-center justify-center">
                 Contact Us
               </Link>
             </div>

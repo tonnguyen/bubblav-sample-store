@@ -197,7 +197,7 @@ export function FAQPage() {
       <FullFAQContent />
 
       {/* Hero Section */}
-      <section className="bg-white py-[100px] px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Badge */}
@@ -208,7 +208,7 @@ export function FAQPage() {
             </div>
 
             {/* Title */}
-            <h1 className="font-newsreader text-[48px] font-medium leading-[1.1] text-brand mb-5">
+            <h1 className="font-newsreader text-4xl sm:text-[48px] font-medium leading-[1.1] text-brand mb-5">
               Frequently Asked Questions
             </h1>
 
@@ -218,12 +218,12 @@ export function FAQPage() {
             </p>
 
             {/* Search */}
-            <div className="flex items-center gap-3 border border-light rounded w-[480px] h-12 px-4">
-              <Search className="w-5 h-5 text-muted" strokeWidth={1.5} />
+            <div className="flex items-center gap-3 border border-light rounded w-full max-w-[480px] h-12 px-4">
+              <Search className="w-5 h-5 text-muted flex-shrink-0" strokeWidth={1.5} />
               <input
                 type="text"
                 placeholder="Search questions..."
-                className="flex-1 outline-none text-sm text-muted placeholder:text-muted"
+                className="flex-1 outline-none text-sm text-muted placeholder:text-muted min-w-0"
               />
             </div>
           </div>
@@ -231,9 +231,9 @@ export function FAQPage() {
       </section>
 
       {/* Categories */}
-      <section className="bg-white py-10 px-16 border-b border-light">
+      <section className="bg-white py-8 sm:py-10 px-4 sm:px-8 lg:px-16 border-b border-light">
         <div className="max-w-[1440px] mx-auto">
-          <div className="flex justify-center gap-4 flex-wrap">
+          <div className="flex justify-center gap-2 sm:gap-4 flex-wrap">
             {faqCategories.map((category) => (
               <button
                 key={category}
@@ -252,7 +252,7 @@ export function FAQPage() {
       </section>
 
       {/* FAQ Content */}
-      <section className="bg-white px-16 py-10">
+      <section className="bg-white px-4 sm:px-8 lg:px-16 py-8 sm:py-10">
         <div className="max-w-[1440px] mx-auto">
           {/* Section Header */}
           <div className="border-b border-light py-10 mb-0">
@@ -302,7 +302,7 @@ export function FAQPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-offset py-16 px-16">
+      <section className="bg-offset py-12 sm:py-16 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center gap-5">
             <h2 className="font-newsreader text-2xl font-medium text-brand">
@@ -311,9 +311,11 @@ export function FAQPage() {
             <p className="text-muted text-base">
               Our customer service team is here to help
             </p>
-            <div className="flex items-center gap-6 text-sm text-muted">
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-sm text-muted">
               <span>Email: support@velvetandvogue.com</span>
+              <span className="hidden sm:inline">·</span>
               <span>Phone: +46 8 123 4567</span>
+              <span className="hidden sm:inline">·</span>
               <span>Live Chat: Mon-Fri 9-18 CET</span>
             </div>
             <Link

@@ -25,7 +25,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-[100px] px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Badge */}
@@ -36,7 +36,7 @@ export default function ContactPage() {
             </div>
 
             {/* Title */}
-            <h1 className="font-newsreader text-[48px] font-medium leading-[1.1] text-brand mb-5">
+            <h1 className="font-newsreader text-4xl sm:text-[48px] font-medium leading-[1.1] text-brand mb-5">
               Contact Us
             </h1>
 
@@ -49,11 +49,11 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Methods */}
-      <section className="bg-white py-[60px] px-16">
+      <section className="bg-white py-10 sm:py-[60px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
-          <div className="flex justify-center gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {contactMethods.map((item, i) => (
-              <div key={i} className="border border-light rounded-lg p-8 w-[320px]">
+              <div key={i} className="border border-light rounded-lg p-6 sm:p-8">
                 <div className="w-12 h-12 bg-offset rounded-full flex items-center justify-center mb-4">
                   <item.icon className="w-6 h-6 text-accent" strokeWidth={1.5} />
                 </div>
@@ -67,12 +67,12 @@ export default function ContactPage() {
       </section>
 
       {/* Store Section */}
-      <section className="bg-offset py-[60px] px-16">
+      <section className="bg-offset py-10 sm:py-[60px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
-          <div className="flex gap-12">
+          <div className="flex flex-col md:flex-row gap-8 sm:gap-12">
             {/* Store Info */}
             <div className="flex-1">
-              <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand mb-6">
+              <h2 className="font-newsreader text-3xl sm:text-[32px] font-medium leading-[1.1] text-brand mb-6">
                 Visit Our Store
               </h2>
               <div className="space-y-4">
@@ -97,19 +97,19 @@ export default function ContactPage() {
               <h3 className="font-newsreader text-lg font-medium text-brand mb-4">In-Store Services</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-muted text-sm">
-                  <div className="w-1.5 h-1.5 bg-accent rounded-full" />
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0" />
                   Personal styling appointments
                 </li>
                 <li className="flex items-center gap-3 text-muted text-sm">
-                  <div className="w-1.5 h-1.5 bg-accent rounded-full" />
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0" />
                   Try-before-you-buy
                 </li>
                 <li className="flex items-center gap-3 text-muted text-sm">
-                  <div className="w-1.5 h-1.5 bg-accent rounded-full" />
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0" />
                   In-store returns and exchanges
                 </li>
                 <li className="flex items-center gap-3 text-muted text-sm">
-                  <div className="w-1.5 h-1.5 bg-accent rounded-full" />
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0" />
                   Gift wrapping
                 </li>
               </ul>
@@ -119,10 +119,10 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form */}
-      <section className="bg-white py-20 px-16">
+      <section className="bg-white py-16 sm:py-20 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[600px] mx-auto">
-            <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand mb-4 text-center">
+            <h2 className="font-newsreader text-3xl sm:text-[32px] font-medium leading-[1.1] text-brand mb-4 text-center">
               Send Us a Message
             </h2>
             <p className="text-muted text-base text-center mb-8">

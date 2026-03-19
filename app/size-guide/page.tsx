@@ -4,10 +4,10 @@ export default function SizeGuidePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-[100px] px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-[100px] px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col items-center text-center">
-            <h1 className="font-newsreader text-[48px] font-medium leading-[1.1] text-brand mb-5">
+            <h1 className="font-newsreader text-4xl sm:text-[48px] font-medium leading-[1.1] text-brand mb-5">
               Size Guide
             </h1>
             <p className="text-muted text-base max-w-[640px] leading-[1.6]">
@@ -18,11 +18,11 @@ export default function SizeGuidePage() {
       </section>
 
       {/* How to Measure */}
-      <section className="bg-offset py-16 px-16">
+      <section className="bg-offset py-12 sm:py-16 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex items-center gap-3 mb-8">
-            <Ruler className="w-6 h-6 text-accent" strokeWidth={1.5} />
-            <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand">
+            <Ruler className="w-6 h-6 text-accent flex-shrink-0" strokeWidth={1.5} />
+            <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.1] text-brand">
               How to Measure
             </h2>
           </div>
@@ -31,59 +31,51 @@ export default function SizeGuidePage() {
             For accurate measurements, measure directly on your body or over thin clothing.
           </p>
 
-          <div className="grid grid-cols-5 gap-6">
-            <div className="bg-white border border-light rounded-lg p-6">
-              <h3 className="font-newsreader text-base font-medium text-brand mb-3">Bust</h3>
-              <p className="text-muted text-sm">Measure around the fullest part of your chest. Keep the tape measure level and comfortable.</p>
-            </div>
-            <div className="bg-white border border-light rounded-lg p-6">
-              <h3 className="font-newsreader text-base font-medium text-brand mb-3">Waist</h3>
-              <p className="text-muted text-sm">Measure around the narrowest part of your waist, usually just above the belly button.</p>
-            </div>
-            <div className="bg-white border border-light rounded-lg p-6">
-              <h3 className="font-newsreader text-base font-medium text-brand mb-3">Hips</h3>
-              <p className="text-muted text-sm">Measure around the fullest part of your hips. Keep feet together.</p>
-            </div>
-            <div className="bg-white border border-light rounded-lg p-6">
-              <h3 className="font-newsreader text-base font-medium text-brand mb-3">Inseam</h3>
-              <p className="text-muted text-sm">Measure from the crotch to the ankle. For best results, measure a pair of pants that fit well.</p>
-            </div>
-            <div className="bg-white border border-light rounded-lg p-6">
-              <h3 className="font-newsreader text-base font-medium text-brand mb-3">Sleeve</h3>
-              <p className="text-muted text-sm">Measure from the center of your back to the wrist. Arm should be slightly bent.</p>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
+            {[
+              { title: 'Bust', desc: 'Measure around the fullest part of your chest. Keep the tape measure level and comfortable.' },
+              { title: 'Waist', desc: 'Measure around the narrowest part of your waist, usually just above the belly button.' },
+              { title: 'Hips', desc: 'Measure around the fullest part of your hips. Keep feet together.' },
+              { title: 'Inseam', desc: 'Measure from the crotch to the ankle. For best results, measure a pair of pants that fit well.' },
+              { title: 'Sleeve', desc: 'Measure from the center of your back to the wrist. Arm should be slightly bent.' },
+            ].map((item) => (
+              <div key={item.title} className="bg-white border border-light rounded-lg p-5 sm:p-6">
+                <h3 className="font-newsreader text-base font-medium text-brand mb-3">{item.title}</h3>
+                <p className="text-muted text-sm">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Women's Clothing */}
-      <section className="bg-white py-16 px-16">
+      <section className="bg-white py-12 sm:py-16 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex items-center gap-3 mb-8">
-            <Shirt className="w-6 h-6 text-accent" strokeWidth={1.5} />
-            <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand">
+            <Shirt className="w-6 h-6 text-accent flex-shrink-0" strokeWidth={1.5} />
+            <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.1] text-brand">
               Women&apos;s Clothing
             </h2>
           </div>
 
           <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Tops &amp; Dresses</h3>
-          <div className="border border-light rounded-lg mb-8 overflow-hidden">
-            <table className="w-full text-sm">
+          <div className="border border-light rounded-lg mb-8 overflow-hidden overflow-x-auto">
+            <table className="w-full text-sm min-w-[360px]">
               <thead className="bg-offset">
                 <tr>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Size</th>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Bust (cm)</th>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Waist (cm)</th>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Hips (cm)</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Size</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Bust (cm)</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Waist (cm)</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Hips (cm)</th>
                 </tr>
               </thead>
               <tbody>
                 {['XS', 'S', 'M', 'L', 'XL', 'XXL'].map((size, i) => (
                   <tr key={size} className="border-t border-light">
-                    <td className="py-3 px-6 text-brand font-medium">{size}</td>
-                    <td className="py-3 px-6 text-muted">{78 + i * 4}-{82 + i * 4}</td>
-                    <td className="py-3 px-6 text-muted">{60 + i * 4}-{64 + i * 4}</td>
-                    <td className="py-3 px-6 text-muted">{86 + i * 4}-{90 + i * 4}</td>
+                    <td className="py-3 px-4 sm:px-6 text-brand font-medium">{size}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{78 + i * 4}-{82 + i * 4}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{60 + i * 4}-{64 + i * 4}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{86 + i * 4}-{90 + i * 4}</td>
                   </tr>
                 ))}
               </tbody>
@@ -91,14 +83,14 @@ export default function SizeGuidePage() {
           </div>
 
           <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Jeans (Inseam)</h3>
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
             {[
               { name: 'Short', inseam: '76' },
               { name: 'Regular', inseam: '81' },
               { name: 'Long', inseam: '86' },
               { name: 'Extra Long', inseam: '91' },
             ].map((item) => (
-              <div key={item.name} className="border border-light rounded-lg p-6 text-center">
+              <div key={item.name} className="border border-light rounded-lg p-5 sm:p-6 text-center">
                 <p className="font-newsreader text-base font-medium text-brand mb-1">{item.name}</p>
                 <p className="text-muted text-sm">{item.inseam} cm</p>
               </div>
@@ -108,31 +100,31 @@ export default function SizeGuidePage() {
       </section>
 
       {/* Men's Clothing */}
-      <section className="bg-offset py-16 px-16">
+      <section className="bg-offset py-12 sm:py-16 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex items-center gap-3 mb-8">
-            <Shirt className="w-6 h-6 text-accent" strokeWidth={1.5} />
-            <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand">
+            <Shirt className="w-6 h-6 text-accent flex-shrink-0" strokeWidth={1.5} />
+            <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.1] text-brand">
               Men&apos;s Clothing
             </h2>
           </div>
 
           <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Tops &amp; Shirts</h3>
-          <div className="border border-light rounded-lg mb-8 overflow-hidden">
-            <table className="w-full text-sm">
+          <div className="border border-light rounded-lg mb-8 overflow-hidden overflow-x-auto">
+            <table className="w-full text-sm min-w-[320px]">
               <thead className="bg-white">
                 <tr>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Size</th>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Chest (cm)</th>
-                  <th className="text-left py-4 px-6 text-brand font-semibold">Waist (cm)</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Size</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Chest (cm)</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Waist (cm)</th>
                 </tr>
               </thead>
               <tbody>
                 {['XS', 'S', 'M', 'L', 'XL', 'XXL'].map((size, i) => (
                   <tr key={size} className="border-t border-light">
-                    <td className="py-3 px-6 text-brand font-medium">{size}</td>
-                    <td className="py-3 px-6 text-muted">{84 + i * 4}-{88 + i * 4}</td>
-                    <td className="py-3 px-6 text-muted">{70 + i * 4}-{74 + i * 4}</td>
+                    <td className="py-3 px-4 sm:px-6 text-brand font-medium">{size}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{84 + i * 4}-{88 + i * 4}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{70 + i * 4}-{74 + i * 4}</td>
                   </tr>
                 ))}
               </tbody>
@@ -142,20 +134,20 @@ export default function SizeGuidePage() {
       </section>
 
       {/* Shoes */}
-      <section className="bg-white py-16 px-16">
+      <section className="bg-white py-12 sm:py-16 px-4 sm:px-8 lg:px-16">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex items-center gap-3 mb-8">
-            <Footprints className="w-6 h-6 text-accent" strokeWidth={1.5} />
-            <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand">
+            <Footprints className="w-6 h-6 text-accent flex-shrink-0" strokeWidth={1.5} />
+            <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.1] text-brand">
               Shoes
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <div>
               <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Women&apos;s Shoes</h3>
-              <div className="border border-light rounded-lg overflow-hidden">
-                <table className="w-full text-sm">
+              <div className="border border-light rounded-lg overflow-hidden overflow-x-auto">
+                <table className="w-full text-sm min-w-[240px]">
                   <thead className="bg-offset">
                     <tr>
                       <th className="text-left py-3 px-4 text-brand font-semibold">EU</th>
@@ -185,8 +177,8 @@ export default function SizeGuidePage() {
 
             <div>
               <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Men&apos;s Shoes</h3>
-              <div className="border border-light rounded-lg overflow-hidden">
-                <table className="w-full text-sm">
+              <div className="border border-light rounded-lg overflow-hidden overflow-x-auto">
+                <table className="w-full text-sm min-w-[240px]">
                   <thead className="bg-offset">
                     <tr>
                       <th className="text-left py-3 px-4 text-brand font-semibold">EU</th>
@@ -218,13 +210,13 @@ export default function SizeGuidePage() {
       </section>
 
       {/* Size Tips */}
-      <section className="bg-white py-16 px-16 border-t border-light">
+      <section className="bg-white py-12 sm:py-16 px-4 sm:px-8 lg:px-16 border-t border-light">
         <div className="max-w-[1440px] mx-auto">
-          <h2 className="font-newsreader text-[32px] font-medium leading-[1.1] text-brand mb-8">
+          <h2 className="font-newsreader text-2xl sm:text-[32px] font-medium leading-[1.1] text-brand mb-8">
             Size Tips
           </h2>
 
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <div>
               <h3 className="font-newsreader text-base font-medium text-brand mb-4">Between Sizes?</h3>
               <ul className="space-y-2">
