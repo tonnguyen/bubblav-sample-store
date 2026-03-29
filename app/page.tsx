@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Truck, RefreshCw, Shield, MessageCircle, Award, Leaf, Heart, Star } from 'lucide-react';
 
 export default function Home() {
@@ -30,12 +31,12 @@ export default function Home() {
 
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-3">
-                <button className="bg-brand text-white px-8 py-4 rounded text-sm font-medium">
+                <Link href="/products" className="bg-brand text-white px-8 py-4 rounded text-sm font-medium text-center">
                   Shop Now
-                </button>
-                <button className="border border-brand text-brand px-8 py-4 rounded text-sm font-medium">
+                </Link>
+                <Link href="/products?sort=newest" className="border border-brand text-brand px-8 py-4 rounded text-sm font-medium text-center">
                   Explore Collections
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -99,11 +100,11 @@ export default function Home() {
           {/* Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { img: 'generated-1773951198355.png', title: 'New Arrivals' },
-              { img: 'generated-1773951213733.png', title: 'Essentials' },
-              { img: 'generated-1773951239156.png', title: 'Sustainable' },
+              { img: 'generated-1773951198355.png', title: 'New Arrivals', href: '/products?sort=newest' },
+              { img: 'generated-1773951213733.png', title: 'Essentials', href: '/products?category=Tops' },
+              { img: 'generated-1773951239156.png', title: 'Sustainable', href: '/products?sustainable=true' },
             ].map((collection, i) => (
-              <div key={i} className="group cursor-pointer">
+              <Link key={i} href={collection.href} className="group cursor-pointer">
                 <div className="relative h-[280px] sm:h-[360px] lg:h-[400px] mb-5 overflow-hidden rounded">
                   <Image
                     src={`/design/pencil/images/${collection.img}`}
@@ -115,7 +116,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-newsreader text-lg font-medium text-brand">{collection.title}</h3>
                 <p className="text-muted-light text-sm mt-1">Explore Collection →</p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

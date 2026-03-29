@@ -23,9 +23,10 @@ export function Footer() {
               SHOP
             </span>
             <div className="flex flex-col gap-3">
-              <a href="#" className="text-muted-light text-sm hover:text-white transition-colors">Women&apos;s Collection</a>
-              <a href="#" className="text-muted-light text-sm hover:text-white transition-colors">Men&apos;s Collection</a>
-              <a href="#" className="text-muted-light text-sm hover:text-white transition-colors">Accessories</a>
+              <Link href="/products" className="text-muted-light text-sm hover:text-white transition-colors">All Products</Link>
+              <Link href="/products?category=dresses" className="text-muted-light text-sm hover:text-white transition-colors">Dresses</Link>
+              <Link href="/products?category=outerwear" className="text-muted-light text-sm hover:text-white transition-colors">Outerwear</Link>
+              <Link href="/products?category=accessories" className="text-muted-light text-sm hover:text-white transition-colors">Accessories</Link>
             </div>
           </div>
 

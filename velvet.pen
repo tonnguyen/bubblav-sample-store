@@ -14213,6 +14213,7 @@
       "y": 0,
       "name": "Product Page",
       "width": 1440,
+      "height": 2570,
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
@@ -14386,7 +14387,7 @@
               "type": "frame",
               "id": "Wf2DA",
               "name": "imageGallery",
-              "width": "fill_container",
+              "width": 580,
               "layout": "vertical",
               "gap": 24,
               "children": [
@@ -14394,8 +14395,8 @@
                   "type": "frame",
                   "id": "LObKk",
                   "name": "mainImage",
-                  "width": "fill_container",
-                  "height": 600,
+                  "width": 580,
+                  "height": 700,
                   "fill": {
                     "type": "image",
                     "enabled": true,
@@ -14408,7 +14409,7 @@
                   "type": "frame",
                   "id": "9L0ea",
                   "name": "thumbnails",
-                  "width": "fill_container",
+                  "width": 580,
                   "gap": 16,
                   "children": [
                     {
@@ -14455,53 +14456,270 @@
               "name": "details",
               "width": 480,
               "layout": "vertical",
-              "gap": 32,
+              "gap": 16,
               "children": [
                 {
                   "type": "text",
-                  "id": "rS3Df",
+                  "id": "S8gKi",
                   "name": "title",
                   "fill": "#1A1A1A",
-                  "content": "Essential Cotton T-Shirt",
-                  "fontFamily": "Newsreader",
-                  "fontSize": 36,
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Silk Wrap Dress",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "oSOoa",
+                  "name": "ratingRow",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "KJSDc",
+                      "name": "star1",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E8B931"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "ctIrv",
+                      "name": "star2",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E8B931"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "KtGxg",
+                      "name": "star3",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E8B931"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Ijz3U",
+                      "name": "star4",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E8B931"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "cvEJW",
+                      "name": "starHalf",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star-half",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E8B931"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5CRsk",
+                      "name": "ratingText",
+                      "fill": "#888888",
+                      "content": "4.8 (124 reviews)",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "n1nLu",
+                  "name": "price",
+                  "fill": "#1A1A1A",
+                  "content": "2,499 SEK",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
                   "fontWeight": "500"
                 },
                 {
                   "type": "text",
-                  "id": "vHrIC",
-                  "name": "price",
-                  "fill": "#1A1A1A",
-                  "content": "$45.00",
+                  "id": "J5e6R",
+                  "name": "desc",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Elegant silk wrap dress with a flattering silhouette. Crafted from 100% mulberry silk with a luxurious drape and subtle sheen.",
+                  "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 24,
+                  "fontSize": 14,
                   "fontWeight": "normal"
                 },
                 {
-                  "type": "text",
-                  "id": "Onxwp",
-                  "name": "desc",
-                  "fill": "#666666",
-                  "content": "A perfectly weighted, incredibly soft organic cotton tee crafted for your everyday uniform.",
-                  "lineHeight": 1.6,
-                  "fontFamily": "Inter",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
+                  "type": "rectangle",
+                  "id": "U1UjY",
+                  "name": "divider1",
+                  "fill": "#E5E5E5",
+                  "width": "fill_container",
+                  "height": 1
                 },
                 {
                   "type": "frame",
-                  "id": "TNjuW",
-                  "name": "sizes",
+                  "id": "Orj45",
+                  "name": "infoRow",
                   "width": "fill_container",
-                  "gap": 12,
+                  "gap": 16,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Le8uH",
-                      "name": "btnS",
-                      "width": 48,
-                      "height": 48,
-                      "cornerRadius": 4,
+                      "id": "qwlY1",
+                      "name": "matFrame",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "szWT8",
+                          "name": "matIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "shirt",
+                          "iconFontFamily": "lucide",
+                          "fill": "#888888"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QjOLt",
+                          "name": "matText",
+                          "fill": "#555555",
+                          "content": "100% Mulberry Silk",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SXT4R",
+                      "name": "sustFrame",
+                      "fill": "#E8F5E9",
+                      "cornerRadius": 12,
+                      "gap": 6,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "HOyTu",
+                          "name": "leafIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "leaf",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4CAF50"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4COKm",
+                          "name": "sustText",
+                          "fill": "#4CAF50",
+                          "content": "Sustainable",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "pjC2S",
+                  "name": "divider2",
+                  "fill": "#E5E5E5",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "MOxjG",
+                  "name": "colorLabel",
+                  "fill": "#333333",
+                  "content": "Color",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "vyv8L",
+                  "name": "colorRow",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "vgftd",
+                      "name": "colorBlack",
+                      "fill": "#1A1A1A",
+                      "width": 32,
+                      "height": 32,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#1A1A1A"
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "bfegD",
+                      "name": "colorBurgundy",
+                      "fill": "#722F37",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "eNPQ7",
+                      "name": "colorNavy",
+                      "fill": "#1B2A4A",
+                      "width": 32,
+                      "height": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "claOt",
+                  "name": "sizeLabel",
+                  "fill": "#333333",
+                  "content": "Size",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "SfcJQ",
+                  "name": "sizeRow",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w4oV6",
+                      "name": "sizeXS",
+                      "width": 44,
+                      "height": 44,
+                      "cornerRadius": 8,
                       "stroke": {
                         "thickness": 1,
                         "fill": "#E5E5E5"
@@ -14511,44 +14729,72 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "9u8qY",
-                          "fill": "#1A1A1A",
-                          "content": "S",
+                          "id": "Bb12O",
+                          "name": "sizeXStxt",
+                          "fill": "#333333",
+                          "content": "XS",
                           "fontFamily": "Inter",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "Urbsz",
-                      "name": "btnM",
-                      "width": 48,
-                      "height": 48,
-                      "fill": "#1A1A1A",
-                      "cornerRadius": 4,
+                      "id": "2CAUH",
+                      "name": "sizeS",
+                      "width": 44,
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
-                          "id": "eb8e1",
+                          "id": "jK522",
+                          "name": "sizeStxt",
+                          "fill": "#333333",
+                          "content": "S",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4gbGj",
+                      "name": "sizeM",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wnAm3",
+                          "name": "sizeMtxt",
                           "fill": "#FFFFFF",
                           "content": "M",
                           "fontFamily": "Inter",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "2Auza",
-                      "name": "btnL",
-                      "width": 48,
-                      "height": 48,
-                      "cornerRadius": 4,
+                      "id": "JL5i1",
+                      "name": "sizeL",
+                      "width": 44,
+                      "height": 44,
+                      "cornerRadius": 8,
                       "stroke": {
                         "thickness": 1,
                         "fill": "#E5E5E5"
@@ -14558,11 +14804,38 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "jv0Cx",
-                          "fill": "#1A1A1A",
+                          "id": "FuDBj",
+                          "name": "sizeLtxt",
+                          "fill": "#333333",
                           "content": "L",
                           "fontFamily": "Inter",
-                          "fontSize": 14,
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7CEFK",
+                      "name": "sizeXL",
+                      "width": 44,
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tf2m1",
+                          "name": "sizeXLtxt",
+                          "fill": "#333333",
+                          "content": "XL",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
                           "fontWeight": "normal"
                         }
                       ]
@@ -14571,23 +14844,626 @@
                 },
                 {
                   "type": "frame",
-                  "id": "P41C8",
-                  "name": "btnCart",
-                  "width": "fill_container",
-                  "height": 56,
-                  "fill": "#1A1A1A",
-                  "cornerRadius": 4,
-                  "justifyContent": "center",
+                  "id": "Xjowy",
+                  "name": "qtyRow",
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "frame",
+                      "id": "lQT3A",
+                      "name": "qtyMinus",
+                      "width": 40,
+                      "height": 40,
+                      "cornerRadius": [
+                        8,
+                        0,
+                        0,
+                        8
+                      ],
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "S9Fyx",
+                          "name": "qtyMinIcon",
+                          "fill": "#333333",
+                          "content": "−",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xWE97",
+                      "name": "qtyVal",
+                      "width": 48,
+                      "height": 40,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wdiA5",
+                          "name": "qtyValTxt",
+                          "fill": "#333333",
+                          "content": "1",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wHC2q",
+                      "name": "qtyPlus",
+                      "width": 40,
+                      "height": 40,
+                      "cornerRadius": [
+                        0,
+                        8,
+                        8,
+                        0
+                      ],
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kMR9T",
+                          "name": "qtyPlusIcon",
+                          "fill": "#333333",
+                          "content": "+",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bNyQ9",
+                  "name": "actionRow",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HVjoC",
+                      "name": "cartBtn",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 8,
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "z8LFD",
+                          "name": "cartIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "shopping-bag",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kMDGh",
+                          "name": "cartText",
+                          "fill": "#FFFFFF",
+                          "content": "Add to Cart",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yTcaf",
+                      "name": "wishBtn",
+                      "width": 52,
+                      "height": 52,
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "6XQBO",
+                          "name": "wishIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "heart",
+                          "iconFontFamily": "lucide",
+                          "fill": "#333333"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lwgXL",
+                  "name": "detailsRow",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NB99s",
+                      "name": "catFrame",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "5FvFC",
+                          "name": "catIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "tag",
+                          "iconFontFamily": "lucide",
+                          "fill": "#888888"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bhocj",
+                          "name": "catText",
+                          "fill": "#888888",
+                          "content": "Dresses / Evening",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "udpYw",
+                      "name": "stockFrame",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Mgnpu",
+                          "name": "stockIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4CAF50"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kln1l",
+                          "name": "stockText",
+                          "fill": "#4CAF50",
+                          "content": "In Stock",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wJxwV",
+          "name": "Product Tabs",
+          "width": 1440,
+          "height": 400,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mHuzs",
+              "name": "Tabs Inner",
+              "width": 1440,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                48,
+                80
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AnU1t",
+                  "name": "Tab Headers",
+                  "width": 1280,
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nsl9U",
+                      "name": "Tab 1 Wrap",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Z1r7Q",
+                          "name": "tab1",
+                          "fill": "#1a1a1a",
+                          "content": "Description",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IQnge",
+                          "name": "Active Line",
+                          "width": 80,
+                          "height": 2,
+                          "fill": "#1a1a1a"
+                        }
+                      ]
+                    },
+                    {
                       "type": "text",
-                      "id": "BKCU4",
-                      "fill": "#FFFFFF",
-                      "content": "Add to Cart",
+                      "id": "ok7xv",
+                      "name": "tab2",
+                      "fill": "#888",
+                      "content": "Material & Care",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "27IUx",
+                      "name": "tab3",
+                      "fill": "#888",
+                      "content": "Shipping & Returns",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kDl1l",
+                  "name": "Divider",
+                  "width": 1280,
+                  "height": 1,
+                  "fill": "#e0e0e0"
+                },
+                {
+                  "type": "frame",
+                  "id": "NVlTt",
+                  "name": "Tab Content",
+                  "width": 1280,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TdpKo",
+                      "name": "descTitle",
+                      "fill": "#1a1a1a",
+                      "content": "About This Product",
                       "fontFamily": "Inter",
                       "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y4vYN",
+                      "name": "descText",
+                      "fill": "#555",
+                      "textGrowth": "fixed-width",
+                      "width": 1280,
+                      "content": "Elegant silk wrap dress with a flattering silhouette. Crafted from 100% mulberry silk with a luxurious drape and subtle sheen. This timeless piece transitions effortlessly from daytime elegance to evening sophistication, making it a versatile addition to any wardrobe.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l5QnJ",
+                      "name": "Features Grid",
+                      "width": 1280,
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BFFH7",
+                          "name": "Col 1",
+                          "width": 616,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "p4uGj",
+                              "name": "f1",
+                              "fill": "#555",
+                              "content": "✓  100% Mulberry Silk",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "mP8uV",
+                              "name": "f2",
+                              "fill": "#555",
+                              "content": "✓  Sustainably sourced materials",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "fWbgD",
+                              "name": "f3",
+                              "fill": "#555",
+                              "content": "✓  Handcrafted in Italy",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GIZ3o",
+                          "name": "Col 2",
+                          "width": 616,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nrOA5",
+                              "name": "f4",
+                              "fill": "#555",
+                              "content": "✓  Flattering wrap silhouette",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bEyu5",
+                              "name": "f5",
+                              "fill": "#555",
+                              "content": "✓  Available in 3 colors",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "62mfx",
+                              "name": "f6",
+                              "fill": "#555",
+                              "content": "✓  Sizes XS through XL",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oGJSQ",
+          "name": "You May Also Like",
+          "width": 1440,
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "2slUa",
+              "name": "title",
+              "fill": "#1a1a1a",
+              "content": "You May Also Like",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "Tnsyx",
+              "name": "Cards Row",
+              "width": 1280,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cmjLA",
+                  "name": "Card - Velvet Evening Gown",
+                  "width": 305,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "70p6g",
+                      "name": "Image",
+                      "width": 305,
+                      "height": 380,
+                      "fill": "#e8e0e8"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ul6CO",
+                      "name": "card1Name",
+                      "fill": "#1a1a1a",
+                      "content": "Velvet Evening Gown",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
                       "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X8p8C",
+                      "name": "card1Price",
+                      "fill": "#555",
+                      "content": "4,499 SEK",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xwAUT",
+                  "name": "Card - Pleated Midi Dress",
+                  "width": 305,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NLtNA",
+                      "name": "Image",
+                      "width": 305,
+                      "height": 380,
+                      "fill": "#e0e4e8"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GjQJs",
+                      "name": "card2Name",
+                      "fill": "#1a1a1a",
+                      "content": "Pleated Midi Dress",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Dfhu4",
+                      "name": "card2Price",
+                      "fill": "#555",
+                      "content": "1,899 SEK",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LSrS4",
+                  "name": "Card - Linen Shirt Dress",
+                  "width": 305,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Vla36",
+                      "name": "Image",
+                      "width": 305,
+                      "height": 380,
+                      "fill": "#e8e4e0"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DBLyz",
+                      "name": "card3Name",
+                      "fill": "#1a1a1a",
+                      "content": "Linen Shirt Dress",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FZC9V",
+                      "name": "card3Price",
+                      "fill": "#555",
+                      "content": "1,399 SEK",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Is6bz",
+                  "name": "Card - Tencel Jumpsuit",
+                  "width": 305,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sfzXX",
+                      "name": "Image",
+                      "width": 305,
+                      "height": 380,
+                      "fill": "#e0e8e4"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XjKmh",
+                      "name": "card4Name",
+                      "fill": "#1a1a1a",
+                      "content": "Tencel Jumpsuit",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "346TY",
+                      "name": "card4Price",
+                      "fill": "#555",
+                      "content": "1,599 SEK",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
                     }
                   ]
                 }
