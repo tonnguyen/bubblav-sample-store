@@ -1,0 +1,279 @@
+[
+  {
+    "id": "ORD-20250115-001",
+    "email": "anna.lindberg@email.se",
+    "createdAt": "2025-01-15T10:23:45Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Silk Wrap Dress",
+        "price": 2499,
+        "quantity": 1,
+        "size": "M",
+        "color": "Burgundy",
+        "image": "/images/products/prod-001.png"
+      },
+      {
+        "productId": "prod-004",
+        "name": "Leather Crossbody Bag",
+        "price": 1799,
+        "quantity": 1,
+        "size": "One Size",
+        "color": "Tan",
+        "image": "/images/products/prod-004.png"
+      }
+    ],
+    "shipping": {
+      "address": {
+        "name": "Anna Lindberg",
+        "street": "Storgatan 12, apt 4B",
+        "city": "Stockholm",
+        "postalCode": "111 23",
+        "country": "Sweden"
+      },
+      "method": "Express",
+      "carrier": "PostNord",
+      "trackingNumber": "PN-SE-20250115-48291",
+      "estimatedDelivery": "2025-01-18",
+      "actualDelivery": "2025-01-17"
+    },
+    "summary": {
+      "subtotal": 4298,
+      "shippingCost": 99,
+      "discount": 0,
+      "total": 4397,
+      "currency": "SEK"
+    },
+    "timeline": [
+      {
+        "status": "placed",
+        "label": "Order Placed",
+        "description": "Your order has been received and confirmed.",
+        "timestamp": "2025-01-15T10:23:45Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "description": "Payment confirmed. Your items are being picked and packed.",
+        "timestamp": "2025-01-15T11:45:00Z"
+      },
+      {
+        "status": "shipped",
+        "label": "Shipped",
+        "description": "Package handed to PostNord. Tracking is now active.",
+        "timestamp": "2025-01-16T08:30:00Z"
+      },
+      {
+        "status": "out_for_delivery",
+        "label": "Out for Delivery",
+        "description": "Your package is with the local courier and will arrive today.",
+        "timestamp": "2025-01-17T07:15:00Z"
+      },
+      {
+        "status": "delivered",
+        "label": "Delivered",
+        "description": "Package delivered and signed for at front door.",
+        "timestamp": "2025-01-17T14:22:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ORD-20250203-002",
+    "email": "erik.johansson@email.se",
+    "createdAt": "2025-02-03T14:12:30Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "prod-006",
+        "name": "Merino Wool Coat",
+        "price": 3999,
+        "quantity": 1,
+        "size": "L",
+        "color": "Camel",
+        "image": "/images/products/prod-006.png"
+      },
+      {
+        "productId": "prod-003",
+        "name": "Cashmere Turtleneck",
+        "price": 2199,
+        "quantity": 1,
+        "size": "M",
+        "color": "Camel",
+        "image": "/images/products/prod-003.png"
+      },
+      {
+        "productId": "prod-015",
+        "name": "Wool Blend Scarf",
+        "price": 799,
+        "quantity": 1,
+        "size": "One Size",
+        "color": "Solid Camel",
+        "image": "/images/products/prod-015.png"
+      }
+    ],
+    "shipping": {
+      "address": {
+        "name": "Erik Johansson",
+        "street": "Kungsportsavenyen 28",
+        "city": "Göteborg",
+        "postalCode": "411 36",
+        "country": "Sweden"
+      },
+      "method": "Standard",
+      "carrier": "DB Schenker",
+      "trackingNumber": "DBS-SE-20250203-77104",
+      "estimatedDelivery": "2025-02-07"
+    },
+    "summary": {
+      "subtotal": 6997,
+      "shippingCost": 0,
+      "discount": 500,
+      "total": 6497,
+      "currency": "SEK"
+    },
+    "timeline": [
+      {
+        "status": "placed",
+        "label": "Order Placed",
+        "description": "Your order has been received and confirmed.",
+        "timestamp": "2025-02-03T14:12:30Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "description": "Payment confirmed. Your items are being picked and packed.",
+        "timestamp": "2025-02-03T16:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "label": "Shipped",
+        "description": "Package handed to DB Schenker. Tracking is now active.",
+        "timestamp": "2025-02-04T09:45:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ORD-20250210-003",
+    "email": "sofia.nordstrom@email.se",
+    "createdAt": "2025-02-10T09:05:12Z",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "prod-011",
+        "name": "Velvet Evening Gown",
+        "price": 4499,
+        "quantity": 1,
+        "size": "S",
+        "color": "Emerald",
+        "image": "/images/products/prod-011.png"
+      },
+      {
+        "productId": "prod-010",
+        "name": "Gold Chain Necklace",
+        "price": 599,
+        "quantity": 1,
+        "size": "One Size",
+        "color": "Gold",
+        "image": "/images/products/prod-010.png"
+      },
+      {
+        "productId": "prod-025",
+        "name": "Pearl Drop Earrings",
+        "price": 499,
+        "quantity": 1,
+        "size": "One Size",
+        "color": "Gold/White Pearl",
+        "image": "/images/products/prod-025.png"
+      }
+    ],
+    "shipping": {
+      "address": {
+        "name": "Sofia Nordström",
+        "street": "Norrlandsgatan 5",
+        "city": "Umeå",
+        "postalCode": "903 27",
+        "country": "Sweden"
+      },
+      "method": "Express",
+      "carrier": "PostNord",
+      "trackingNumber": null,
+      "estimatedDelivery": "2025-02-13"
+    },
+    "summary": {
+      "subtotal": 5597,
+      "shippingCost": 99,
+      "discount": 0,
+      "total": 5696,
+      "currency": "SEK"
+    },
+    "timeline": [
+      {
+        "status": "placed",
+        "label": "Order Placed",
+        "description": "Your order has been received and confirmed.",
+        "timestamp": "2025-02-10T09:05:12Z"
+      },
+      {
+        "status": "processing",
+        "label": "Processing",
+        "description": "Payment confirmed. Your items are being picked and packed.",
+        "timestamp": "2025-02-10T10:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ORD-20250214-004",
+    "email": "maria.karlsson@email.se",
+    "createdAt": "2025-02-14T16:48:00Z",
+    "status": "placed",
+    "items": [
+      {
+        "productId": "prod-016",
+        "name": "Tencel Jumpsuit",
+        "price": 1599,
+        "quantity": 1,
+        "size": "S",
+        "color": "Olive",
+        "image": "/images/products/prod-016.png"
+      },
+      {
+        "productId": "prod-017",
+        "name": "Canvas Sneakers",
+        "price": 899,
+        "quantity": 1,
+        "size": "38",
+        "color": "Sage Green",
+        "image": "/images/products/prod-017.png"
+      }
+    ],
+    "shipping": {
+      "address": {
+        "name": "Maria Karlsson",
+        "street": "Södermalmstorg 3",
+        "city": "Malmö",
+        "postalCode": "211 19",
+        "country": "Sweden"
+      },
+      "method": "Standard",
+      "carrier": "PostNord",
+      "trackingNumber": null,
+      "estimatedDelivery": "2025-02-19"
+    },
+    "summary": {
+      "subtotal": 2498,
+      "shippingCost": 0,
+      "discount": 0,
+      "total": 2498,
+      "currency": "SEK"
+    },
+    "timeline": [
+      {
+        "status": "placed",
+        "label": "Order Placed",
+        "description": "Your order has been received. We're confirming your payment.",
+        "timestamp": "2025-02-14T16:48:00Z"
+      }
+    ]
+  }
+]

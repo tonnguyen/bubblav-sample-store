@@ -3,19 +3,21 @@ import products from "@/data/products.json";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = request.nextUrl;
+  const params = new Map(Array.from(searchParams.entries(), ([key, value]) => [key.toLowerCase(), value]));
+  const getParam = (name: string) => params.get(name.toLowerCase());
 
-  const query = searchParams.get("q")?.toLowerCase().trim() ?? "";
-  const category = searchParams.get("category")?.trim() ?? "";
-  const subcategory = searchParams.get("subcategory")?.trim() ?? "";
-  const color = searchParams.get("color")?.toLowerCase().trim() ?? "";
-  const size = searchParams.get("size")?.toUpperCase().trim() ?? "";
-  const sustainable = searchParams.get("sustainable");
-  const inStock = searchParams.get("inStock");
-  const minPrice = searchParams.get("minPrice");
-  const maxPrice = searchParams.get("maxPrice");
-  const sort = searchParams.get("sort") ?? "relevance";
-  const page = Math.max(1, Number(searchParams.get("page")) || 1);
-  const limit = Math.min(100, Math.max(1, Number(searchParams.get("limit")) || 20));
+  const query = getParam("q")?.toLowerCase().trim() ?? "";
+  const category = getParam("category")?.trim() ?? "";
+  const subcategory = getParam("subcategory")?.trim() ?? "";
+  const color = getParam("color")?.toLowerCase().trim() ?? "";
+  const size = getParam("size")?.toUpperCase().trim() ?? "";
+  const sustainable = getParam("sustainable");
+  const inStock = getParam("instock");
+  const minPrice = getParam("minprice");
+  const maxPrice = getParam("maxprice");
+  const sort = getParam("sort") ?? "relevance";
+  const page = Math.max(1, Number(getParam("page")) || 1);
+  const limit = Math.min(100, Math.max(1, Number(getParam("limit")) || 20));
 
   let results = products.filter((product) => {
     // Text search across name, description, tags, material
