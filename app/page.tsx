@@ -12,9 +12,9 @@ export default function Home() {
             {/* Left Content */}
             <div className="flex-1 flex flex-col justify-center py-10 md:py-0 md:pr-12">
               {/* Badge */}
-              <div className="inline-flex bg-offset px-4 py-2 mb-6 w-fit">
-                <span className="font-jetbrains text-xs font-semibold tracking-[0.12em] text-brand">
-                  NEW COLLECTION SPRING 2026
+              <div className="inline-flex bg-accent px-4 py-2 mb-6 w-fit">
+                <span className="font-jetbrains text-xs font-semibold tracking-[0.12em] text-white">
+                  DEMO STORE — AI CHATBOT SHOWCASE
                 </span>
               </div>
 
@@ -25,8 +25,8 @@ export default function Home() {
 
               {/* Subhead */}
               <p className="text-muted text-base leading-[1.6] max-w-[480px] mb-6">
-                Welcome to VELVET &amp; VOGUE – where contemporary fashion meets timeless elegance.
-                We curate the finest pieces for the modern individual who refuses to compromise on quality or style.
+                Welcome to VELVET &amp; VOGUE — a demo store powered by BubblaV AI Chatbot.
+                Click the chat icon in the bottom-right corner to experience our AI assistant!
               </p>
 
               {/* CTAs */}

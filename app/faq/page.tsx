@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { FAQPage } from '@/components/faq-page';
+import { PageChatbotHint } from '@/components/page-chatbot-hint';
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions | VELVET & VOGUE',
@@ -282,6 +283,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
+      <PageChatbotHint question="What is your return policy for sale items?" />
       <FAQPage />
     </>
   );

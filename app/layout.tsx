@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { BubblaVWidget } from '@bubblav/ai-chatbot-react';
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { DemoBanner } from "@/components/demo-banner";
 
 export const metadata: Metadata = {
   title: "VELVET & VOGUE - Redefine Your Style, Embrace Luxury",
@@ -16,8 +18,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-JDQ1JMR37D"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JDQ1JMR37D');
+          `}
+        </Script>
+      </head>
       <body className="antialiased">
         <div className="min-h-screen flex flex-col">
+          <DemoBanner />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

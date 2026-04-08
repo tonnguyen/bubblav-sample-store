@@ -1,5 +1,6 @@
 import { Truck, Package, Clock, Globe, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
+import { PageChatbotHint } from '@/components/page-chatbot-hint';
 
 export default function ShippingPage() {
   return (
@@ -17,6 +18,8 @@ export default function ShippingPage() {
           </div>
         </div>
       </section>
+
+      <PageChatbotHint question="How long does shipping to Gothenburg take?" />
 
       {/* Domestic Shipping */}
       <section className="bg-white py-12 sm:py-16 px-4 sm:px-8 lg:px-16">

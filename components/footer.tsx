@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import Link from 'next/link';
+import { BubblaVFooterBranding } from './bubblav-footer-branding';
 
 export function Footer() {
   return (
@@ -38,6 +39,7 @@ export function Footer() {
               <Link href="/shipping" className="text-muted-light text-sm hover:text-white transition-colors">Shipping Info</Link>
               <Link href="/returns" className="text-muted-light text-sm hover:text-white transition-colors">Returns</Link>
               <Link href="/faq" className="text-muted-light text-sm hover:text-white transition-colors">FAQ</Link>
+              <Link href="/demo" className="text-accent text-sm hover:text-white transition-colors font-medium">How to Test</Link>
             </div>
           </div>
 
@@ -73,10 +75,13 @@ export function Footer() {
           </div>
         </div>
 
+        {/* BubblaV Branding */}
+        <BubblaVFooterBranding />
+
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 border-t border-white/20">
           <p className="text-muted text-xs">
-            © 2026 Velvet &amp; Vogue. All rights reserved.
+            © 2026 Demo Store by BubblaV. Not a real store.
           </p>
           <div className="flex gap-4">
             <Instagram className="w-[18px] h-[18px] text-muted-light" strokeWidth={1.5} />

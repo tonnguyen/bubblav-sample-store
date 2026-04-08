@@ -13,6 +13,28 @@
       "children": [
         {
           "type": "frame",
+          "id": "2875a",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cc484",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "4lV1f",
           "name": "Header",
           "width": "fill_container",
@@ -206,7 +228,7 @@
                       "id": "w4wvl",
                       "name": "heroBadgeText",
                       "fill": "#1A1A1A",
-                      "content": "NEW COLLECTION SPRING 2026",
+                      "content": "DEMO STORE \u2014 AI CHATBOT SHOWCASE",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 11,
                       "fontWeight": "600",
@@ -234,7 +256,7 @@
                   "fill": "#666666",
                   "textGrowth": "fixed-width",
                   "width": 480,
-                  "content": "Welcome to VELVET & VOGUE – where contemporary fashion meets timeless elegance. We curate the finest pieces for the modern individual who refuses to compromise on quality or style.",
+                  "content": "Welcome to VELVET & VOGUE \u2014 a demo store powered by BubblaV AI Chatbot. Click the chat icon in the bottom-right corner to experience our AI assistant!",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
                   "fontSize": 16,
@@ -596,7 +618,7 @@
                           "id": "RVENe",
                           "name": "collection1CTA",
                           "fill": "#0D6E6E",
-                          "content": "Shop Now →",
+                          "content": "Shop Now \u2192",
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -680,7 +702,7 @@
                           "id": "KYZTx",
                           "name": "collection2CTA",
                           "fill": "#0D6E6E",
-                          "content": "Shop Now →",
+                          "content": "Shop Now \u2192",
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -743,7 +765,7 @@
                           "id": "8yj5D",
                           "name": "collection3CTA",
                           "fill": "#0D6E6E",
-                          "content": "Shop Now →",
+                          "content": "Shop Now \u2192",
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -1385,6 +1407,49 @@
             },
             {
               "type": "frame",
+              "id": "5650a",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "572f8",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "b2a71",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "oDj2M",
               "name": "footerBottom",
               "width": "fill_container",
@@ -1409,7 +1474,7 @@
                   "id": "kWENR",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -1468,6 +1533,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "90098",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dee49",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "CvS8p",
@@ -1732,7 +1819,7 @@
                   "fill": "#666666",
                   "textGrowth": "fixed-width",
                   "width": 720,
-                  "content": "What started as a small boutique in Stockholm has grown into a beloved destination for fashion enthusiasts across Europe. But our mission remains the same – to help you discover your unique style while making conscious choices.",
+                  "content": "What started as a small boutique in Stockholm has grown into a beloved destination for fashion enthusiasts across Europe. But our mission remains the same \u2013 to help you discover your unique style while making conscious choices.",
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
@@ -2132,7 +2219,7 @@
               "fill": "#666666",
               "textGrowth": "fixed-width",
               "width": 560,
-              "content": "When you shop with VELVET & VOGUE, you're not just buying clothes – you're joining a community.",
+              "content": "When you shop with VELVET & VOGUE, you're not just buying clothes \u2013 you're joining a community.",
               "lineHeight": 1.6,
               "textAlign": "center",
               "fontFamily": "Inter",
@@ -2736,6 +2823,49 @@
             },
             {
               "type": "frame",
+              "id": "4cd6d",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0ca3d",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "29702",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "CaTFg",
               "name": "footerBottom",
               "width": "fill_container",
@@ -2760,7 +2890,7 @@
                   "id": "cEdNM",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -2819,6 +2949,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "8d905",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7cad6",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "dW01T",
@@ -4079,6 +4231,49 @@
             },
             {
               "type": "frame",
+              "id": "4558f",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4f1f0",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "15ab0",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "hfafW",
               "name": "footerBottom",
               "width": "fill_container",
@@ -4103,7 +4298,7 @@
                   "id": "3QzKZ",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -4162,6 +4357,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "85b48",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "78e78",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "HUffR",
@@ -5774,6 +5991,49 @@
             },
             {
               "type": "frame",
+              "id": "03aec",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d1da3",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "5e2f1",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "YWsFy",
               "name": "footerBottom",
               "width": "fill_container",
@@ -5798,7 +6058,7 @@
                   "id": "sJlGx",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -5857,6 +6117,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "8ae81",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "21303",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "hZBWQ",
@@ -7367,6 +7649,49 @@
             },
             {
               "type": "frame",
+              "id": "02a0b",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "433ce",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "67f11",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "XAu4p",
               "name": "footerBottom",
               "width": "fill_container",
@@ -7391,7 +7716,7 @@
                   "id": "ybz5W",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -7450,6 +7775,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "12aa3",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7cc49",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "FZo3V",
@@ -8504,7 +8851,7 @@
               "fill": "#0D6E6E",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Free returns on your first order – look for the 'Free Returns' badge at checkout!",
+              "content": "Free returns on your first order \u2013 look for the 'Free Returns' badge at checkout!",
               "textAlign": "center",
               "fontFamily": "Inter",
               "fontSize": 14,
@@ -8862,6 +9209,49 @@
             },
             {
               "type": "frame",
+              "id": "aa093",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a4a3c",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "06a00",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "FARwk",
               "name": "footerBottom",
               "width": "fill_container",
@@ -8886,7 +9276,7 @@
                   "id": "T14VW",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -8945,6 +9335,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "74ad7",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "c9a57",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "MfNqz",
@@ -10178,6 +10590,49 @@
             },
             {
               "type": "frame",
+              "id": "9fce9",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9745c",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "50171",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "THIi2",
               "name": "footerBottom",
               "width": "fill_container",
@@ -10202,7 +10657,7 @@
                   "id": "m7tyW",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -10261,6 +10716,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "f749b",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "4b095",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "9p7OS",
@@ -10355,7 +10832,7 @@
                 {
                   "type": "text",
                   "id": "bJph6",
-                  "content": "🔍",
+                  "content": "\ud83d\udd0d",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -10363,7 +10840,7 @@
                 {
                   "type": "text",
                   "id": "iBDsk",
-                  "content": "👤",
+                  "content": "\ud83d\udc64",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -10371,7 +10848,7 @@
                 {
                   "type": "text",
                   "id": "2bWJt",
-                  "content": "🛒",
+                  "content": "\ud83d\uded2",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -10492,7 +10969,7 @@
                     {
                       "type": "text",
                       "id": "aRew4",
-                      "content": "💳",
+                      "content": "\ud83d\udcb3",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -10547,7 +11024,7 @@
                     {
                       "type": "text",
                       "id": "YB6Ms",
-                      "content": "🅿️",
+                      "content": "\ud83c\udd7f\ufe0f",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -10602,7 +11079,7 @@
                     {
                       "type": "text",
                       "id": "t6p6D",
-                      "content": "🎯",
+                      "content": "\ud83c\udfaf",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -10657,7 +11134,7 @@
                     {
                       "type": "text",
                       "id": "5dQIB",
-                      "content": "🍎",
+                      "content": "\ud83c\udf4e",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -10712,7 +11189,7 @@
                     {
                       "type": "text",
                       "id": "mIWup",
-                      "content": "📱",
+                      "content": "\ud83d\udcf1",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -10794,7 +11271,7 @@
                     {
                       "type": "text",
                       "id": "53Zn9",
-                      "content": "🔒",
+                      "content": "\ud83d\udd12",
                       "fontFamily": "Inter",
                       "fontSize": 40,
                       "fontWeight": "normal"
@@ -10831,7 +11308,7 @@
                     {
                       "type": "text",
                       "id": "4OjlR",
-                      "content": "🛡️",
+                      "content": "\ud83d\udee1\ufe0f",
                       "fontFamily": "Inter",
                       "fontSize": 40,
                       "fontWeight": "normal"
@@ -10868,7 +11345,7 @@
                     {
                       "type": "text",
                       "id": "RyfKj",
-                      "content": "🔐",
+                      "content": "\ud83d\udd10",
                       "fontFamily": "Inter",
                       "fontSize": 40,
                       "fontWeight": "normal"
@@ -10905,7 +11382,7 @@
                     {
                       "type": "text",
                       "id": "S5QQm",
-                      "content": "❌",
+                      "content": "\u274c",
                       "fontFamily": "Inter",
                       "fontSize": 40,
                       "fontWeight": "normal"
@@ -11389,6 +11866,49 @@
             },
             {
               "type": "frame",
+              "id": "c5f18",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "c8263",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "8966d",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "KBJnB",
               "name": "footerBottom",
               "width": "fill_container",
@@ -11412,7 +11932,7 @@
                   "type": "text",
                   "id": "TtekC",
                   "fill": "#AAAAAA",
-                  "content": "© 2025 VELVET & VOGUE. All rights reserved.",
+                  "content": "\u00a9 2025 VELVET & VOGUE. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 13,
                   "fontWeight": "normal"
@@ -11433,6 +11953,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "5938c",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "378d1",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "l2XMY",
@@ -11527,7 +12069,7 @@
                 {
                   "type": "text",
                   "id": "T6wcH",
-                  "content": "🔍",
+                  "content": "\ud83d\udd0d",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -11535,7 +12077,7 @@
                 {
                   "type": "text",
                   "id": "rxBxd",
-                  "content": "👤",
+                  "content": "\ud83d\udc64",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -11543,7 +12085,7 @@
                 {
                   "type": "text",
                   "id": "zvMZd",
-                  "content": "🛒",
+                  "content": "\ud83d\uded2",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -11812,7 +12354,7 @@
                     {
                       "type": "text",
                       "id": "YUlow",
-                      "content": "📋",
+                      "content": "\ud83d\udccb",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -11857,7 +12399,7 @@
                     {
                       "type": "text",
                       "id": "Z0RfQ",
-                      "content": "📦",
+                      "content": "\ud83d\udce6",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -11902,7 +12444,7 @@
                     {
                       "type": "text",
                       "id": "ySdSq",
-                      "content": "🚚",
+                      "content": "\ud83d\ude9a",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -11947,7 +12489,7 @@
                     {
                       "type": "text",
                       "id": "3fwHe",
-                      "content": "✅",
+                      "content": "\u2705",
                       "fontFamily": "Inter",
                       "fontSize": 32,
                       "fontWeight": "normal"
@@ -12422,6 +12964,49 @@
             },
             {
               "type": "frame",
+              "id": "ffba8",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "74f03",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "900e5",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "iYOYW",
               "name": "footerBottom",
               "width": "fill_container",
@@ -12445,7 +13030,7 @@
                   "type": "text",
                   "id": "tEnAP",
                   "fill": "#AAAAAA",
-                  "content": "© 2025 VELVET & VOGUE. All rights reserved.",
+                  "content": "\u00a9 2025 VELVET & VOGUE. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 13,
                   "fontWeight": "normal"
@@ -12466,6 +13051,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "44261",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ab8fc",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "cIB9l",
@@ -12560,7 +13167,7 @@
                 {
                   "type": "text",
                   "id": "I7xaI",
-                  "content": "🔍",
+                  "content": "\ud83d\udd0d",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -12568,7 +13175,7 @@
                 {
                   "type": "text",
                   "id": "hq6m9",
-                  "content": "👤",
+                  "content": "\ud83d\udc64",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -12576,7 +13183,7 @@
                 {
                   "type": "text",
                   "id": "ejWDT",
-                  "content": "🛒",
+                  "content": "\ud83d\uded2",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "normal"
@@ -12708,7 +13315,7 @@
                       "type": "text",
                       "id": "N3GQA",
                       "fill": "#666666",
-                      "content": "• Provide accurate, current information when creating an account",
+                      "content": "\u2022 Provide accurate, current information when creating an account",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -12718,7 +13325,7 @@
                       "type": "text",
                       "id": "5WrJv",
                       "fill": "#666666",
-                      "content": "• Maintain and update your information",
+                      "content": "\u2022 Maintain and update your information",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -12728,7 +13335,7 @@
                       "type": "text",
                       "id": "Sz1DT",
                       "fill": "#666666",
-                      "content": "• Keep your password secure",
+                      "content": "\u2022 Keep your password secure",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -12846,7 +13453,7 @@
                       "type": "text",
                       "id": "xtzKN",
                       "fill": "#666666",
-                      "content": "• Return shipping costs may apply",
+                      "content": "\u2022 Return shipping costs may apply",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -12856,7 +13463,7 @@
                       "type": "text",
                       "id": "MS3Ux",
                       "fill": "#666666",
-                      "content": "• Refunds processed within 5-7 business days",
+                      "content": "\u2022 Refunds processed within 5-7 business days",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -12866,7 +13473,7 @@
                       "type": "text",
                       "id": "jfI8k",
                       "fill": "#666666",
-                      "content": "• Exchanges are free for different sizes/colors",
+                      "content": "\u2022 Exchanges are free for different sizes/colors",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -13369,6 +13976,49 @@
             },
             {
               "type": "frame",
+              "id": "6799d",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6e567",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "76f8f",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "PJ0PM",
               "name": "footerBottom",
               "width": "fill_container",
@@ -13392,7 +14042,7 @@
                   "type": "text",
                   "id": "ljZfQ",
                   "fill": "#AAAAAA",
-                  "content": "© 2025 VELVET & VOGUE. All rights reserved.",
+                  "content": "\u00a9 2025 VELVET & VOGUE. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 13,
                   "fontWeight": "normal"
@@ -13448,6 +14098,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "2d400",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "821e5",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "7Yhv8",
@@ -14133,6 +14805,49 @@
             },
             {
               "type": "frame",
+              "id": "559e6",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d0738",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "300c7",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "Ks3cp",
               "name": "footerBottom",
               "width": "fill_container",
@@ -14157,7 +14872,7 @@
                   "id": "i2JSr",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -14217,6 +14932,28 @@
       "fill": "#FAFAFA",
       "layout": "vertical",
       "children": [
+        {
+          "type": "frame",
+          "id": "b3a46",
+          "name": "DemoBanner",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#0D6E6E",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "c0b79",
+              "name": "demoBannerText",
+              "fill": "#FFFFFF",
+              "content": "\u26a1 Demo Store \u2014 This site showcases BubblaV AI Chatbot. Try asking the chatbot a question!",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
         {
           "type": "frame",
           "id": "th8Y1",
@@ -14872,7 +15609,7 @@
                           "id": "S9Fyx",
                           "name": "qtyMinIcon",
                           "fill": "#333333",
-                          "content": "−",
+                          "content": "\u2212",
                           "fontFamily": "Inter",
                           "fontSize": 18,
                           "fontWeight": "normal"
@@ -15215,7 +15952,7 @@
                               "id": "p4uGj",
                               "name": "f1",
                               "fill": "#555",
-                              "content": "✓  100% Mulberry Silk",
+                              "content": "\u2713  100% Mulberry Silk",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -15225,7 +15962,7 @@
                               "id": "mP8uV",
                               "name": "f2",
                               "fill": "#555",
-                              "content": "✓  Sustainably sourced materials",
+                              "content": "\u2713  Sustainably sourced materials",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -15235,7 +15972,7 @@
                               "id": "fWbgD",
                               "name": "f3",
                               "fill": "#555",
-                              "content": "✓  Handcrafted in Italy",
+                              "content": "\u2713  Handcrafted in Italy",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -15255,7 +15992,7 @@
                               "id": "nrOA5",
                               "name": "f4",
                               "fill": "#555",
-                              "content": "✓  Flattering wrap silhouette",
+                              "content": "\u2713  Flattering wrap silhouette",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -15265,7 +16002,7 @@
                               "id": "bEyu5",
                               "name": "f5",
                               "fill": "#555",
-                              "content": "✓  Available in 3 colors",
+                              "content": "\u2713  Available in 3 colors",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -15275,7 +16012,7 @@
                               "id": "62mfx",
                               "name": "f6",
                               "fill": "#555",
-                              "content": "✓  Sizes XS through XL",
+                              "content": "\u2713  Sizes XS through XL",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -15777,6 +16514,49 @@
             },
             {
               "type": "frame",
+              "id": "e1616",
+              "name": "bubblavBranding",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#4A4A4A"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 12,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b11f8",
+                  "name": "bubblavLabel",
+                  "fill": "#0D6E6E",
+                  "content": "Powered by BubblaV \u2014 AI Chatbot for E-Commerce",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "1ed0e",
+                  "name": "bubblavCta",
+                  "fill": "#888888",
+                  "content": "Add an AI chatbot to your store in 5 minutes \u2192 bubblav.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "Cu5Lp",
               "name": "footerBottom",
               "width": "fill_container",
@@ -15801,7 +16581,7 @@
                   "id": "JjWng",
                   "name": "footerCopyright",
                   "fill": "#666666",
-                  "content": "© 2026 Velvet & Vogue. All rights reserved.",
+                  "content": "\u00a9 2026 Velvet & Vogue. All rights reserved.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"

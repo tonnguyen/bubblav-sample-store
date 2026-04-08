@@ -1,5 +1,6 @@
 import { RotateCcw, Shield, Clock, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
+import { PageChatbotHint } from '@/components/page-chatbot-hint';
 
 export default function ReturnsPage() {
   return (
@@ -17,6 +18,8 @@ export default function ReturnsPage() {
           </div>
         </div>
       </section>
+
+      <PageChatbotHint question="Can I return an item after 30 days?" />
 
       {/* 30-Day Policy */}
       <section className="bg-white py-12 sm:py-16 px-4 sm:px-8 lg:px-16">

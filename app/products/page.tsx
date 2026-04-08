@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getAllProducts, Product } from "@/lib/products";
 import { ProductCard } from "@/components/product-card";
+import { PageChatbotHint } from "@/components/page-chatbot-hint";
 
 export const metadata: Metadata = {
   title: "Shop All Products | VELVET & VOGUE",
@@ -61,6 +62,8 @@ export default async function ProductsPage({
           </p>
         </div>
       </section>
+
+      <PageChatbotHint question="Do you have any sustainable dresses under 2000 SEK?" />
 
       {/* Category Filters */}
       <section className="border-b border-light py-4 px-4 sm:px-8 lg:px-16">
