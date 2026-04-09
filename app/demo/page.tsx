@@ -43,7 +43,6 @@ const suggestedQuestions = [
   {
     category: 'Order Tracking',
     questions: [
-      'Where is my order ORD-20250115-001? (anna.lindberg@email.se)',
       'What is the status of order ORD-20250203-002? (erik.johansson@email.se)',
       'Has order ORD-20250210-003 been shipped yet? (sofia.nordstrom@email.se)',
       'Track my order ORD-20250214-004 for maria.karlsson@email.se',
