@@ -17,6 +17,10 @@ export interface Product {
   inStock: boolean;
   images: string[];
   tags: string[];
+  fit?: string;
+  fitNote?: string;
+  care?: string;
+  sustainabilityDetail?: string;
   rating: number;
   reviewCount: number;
 }

@@ -1,4 +1,5 @@
 import { Ruler, Shirt, Footprints } from 'lucide-react';
+import { WOMENS_TOPS_DRESSES } from '@/lib/size-data';
 
 export default function SizeGuidePage() {
   return (
@@ -59,28 +60,33 @@ export default function SizeGuidePage() {
           </div>
 
           <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Tops &amp; Dresses</h3>
-          <div className="border border-light rounded-lg mb-8 overflow-hidden overflow-x-auto">
-            <table className="w-full text-sm min-w-[360px]">
+          <div className="border border-light rounded-lg mb-3 overflow-hidden overflow-x-auto">
+            <table className="w-full text-sm min-w-[440px]">
               <thead className="bg-offset">
                 <tr>
                   <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Size</th>
                   <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Bust (cm)</th>
                   <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Waist (cm)</th>
                   <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Hips (cm)</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-brand font-semibold">Weight (kg)</th>
                 </tr>
               </thead>
               <tbody>
-                {['XS', 'S', 'M', 'L', 'XL', 'XXL'].map((size, i) => (
-                  <tr key={size} className="border-t border-light">
-                    <td className="py-3 px-4 sm:px-6 text-brand font-medium">{size}</td>
-                    <td className="py-3 px-4 sm:px-6 text-muted">{78 + i * 4}-{82 + i * 4}</td>
-                    <td className="py-3 px-4 sm:px-6 text-muted">{60 + i * 4}-{64 + i * 4}</td>
-                    <td className="py-3 px-4 sm:px-6 text-muted">{86 + i * 4}-{90 + i * 4}</td>
+                {WOMENS_TOPS_DRESSES.rows.map((row) => (
+                  <tr key={row.size} className="border-t border-light">
+                    <td className="py-3 px-4 sm:px-6 text-brand font-medium">{row.size}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{row.bust}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{row.waist}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{row.hips}</td>
+                    <td className="py-3 px-4 sm:px-6 text-muted">{row.weightKg}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
+          <p className="text-muted text-xs mb-8">
+            Weight ranges are approximate, based on an average height of ~165cm. For the best fit, use your bust, waist and hip measurements.
+          </p>
 
           <h3 className="font-newsreader text-lg font-medium text-brand mb-6">Jeans (Inseam)</h3>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
