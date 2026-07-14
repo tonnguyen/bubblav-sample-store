@@ -1,0 +1,32 @@
+data/products.json
+  s_c9cfb2f776f408::t_b71616c895cd66 19-22,43-46,67-70,91-93,114-117,138-140,161-164,185-188,209-211,232-234,255-257,278-281,302-304,325-327,348-350,371-374,395-398,419-421,442-445,466-469,490-493,514-516,537-539,560-563,584-586
+app/api/products/[slug]/route.ts
+  s_c9cfb2f776f408::t_dea153928e2b14 1-73
+app/api/products/[slug]/sizing/route.ts
+  s_c9cfb2f776f408::t_332322dd6259f7 65-66
+  s_c9cfb2f776f408::t_0717710be6f1cf 1-64,67-75
+lib/size-data.ts
+  s_c9cfb2f776f408::t_a7f1feca7ebbe6 1-161,163-369
+  s_c9cfb2f776f408::t_e8eb1fb3eca3e2 162
+app/size-guide/page.tsx
+  s_c9cfb2f776f408::t_3a7b81b5ba07f9 2
+  s_c9cfb2f776f408::t_6686b8c0232056 63-64,71,75-81,87-89
+lib/products.ts
+  s_c9cfb2f776f408::t_528e4fdbbeba5d 20-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ffc04bdfeac7b09c4db0cf96214b8eedaab45106",
+  "prompts": {},
+  "sessions": {
+    "s_c9cfb2f776f408": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "eb529576-5f74-4065-87d7-854c54f3d345",
+        "model": "glm-5.2"
+      },
+      "human_author": "Ton Nguyen <tonng86@gmail.com>"
+    }
+  }
+}
