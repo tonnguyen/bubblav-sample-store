@@ -2,26 +2,37 @@
   "name": "@bubblav/sample-store",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vinext start",
+    "deploy": "bun run build && wrangler deploy",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@bubblav/ai-chatbot-react": "^1.0.5",
     "lucide-react": "^0.577.0",
-    "next": "16.2.0",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "vinext": "^1.0.1",
+    "@vinext/cloudflare": "^1.0.1",
+    "next": "16.3.8",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-server-dom-webpack": "^19.2.6"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "1",
+    "@cloudflare/workers-types": "^5.20261001.1",
+    "@vitejs/plugin-rsc": "^0.5.35",
+    "vite": "^8.3.2",
     "@types/node": "^24.9.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "wrangler": "^4.147.0"
   }
 }
