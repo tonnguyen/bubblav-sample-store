@@ -13,8 +13,9 @@
   },
   "workers_dev": true,
   "preview_urls": true,
+  // Required by `wrangler preview` (used by Workers Builds for preview
+  // deployments). Assets, compat flags, etc. stay top-level.
   "previews": {},
-
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1,
