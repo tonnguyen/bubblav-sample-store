@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map(route => {
     return {
-      url: `https://bubblav-sample-store.vercel.app${route}`,
+      url: `https://bubblav-sample-store.bubblav.workers.dev${route}`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: route === '' ? 1 : 0.8,
