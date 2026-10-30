@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { SITE_URL } from '@/lib/site'
  
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
@@ -16,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map(route => {
     return {
-      url: `https://bubblav-sample-store.bubblav.workers.dev${route}`,
+      url: `${SITE_URL}${route}`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: route === '' ? 1 : 0.8,
